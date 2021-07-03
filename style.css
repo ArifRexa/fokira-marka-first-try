@@ -1,26 +1,32 @@
 body{
-    margin: auto;
+    margin-top: -40px;
+    font-family: 'Teko', sans-serif;
 }
 
 section{
-    margin: 0px 40px 140px 40px;
+    margin: 0px 30px 140px 30px;
     
 }
+p{
+    font-size: 20px;
+}
+
 h1{
-    font-size: 50px;
+    font-size: 80px;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 60px;
 }
 h4{
-    font-size: 18px;
+    font-size: 25px;
 }
 .orange-color{
     color: orange;
 }
 .flexible{
     display: flex;
+    padding: 4%;
     
 }
 .half-width{
