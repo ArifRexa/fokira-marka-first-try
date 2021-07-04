@@ -3,12 +3,9 @@ body{
     font-family: 'Teko', sans-serif;
 }
 
-/* section{
-    margin-bottom:150px;
-    
-} */
 p{
     font-size: 20px;
+    margin-top: 0px;
 }
 
 h1{
@@ -29,6 +26,7 @@ h4{
 }
 h5{
     font-size: 25px;
+    margin: 0px;
 }
 .orange-color{
     color: orange;
@@ -89,7 +87,6 @@ h5{
 }
 
 .card{
-    border: 2px solid whitesmoke;
     border-radius: 8px;
     box-shadow: 10px 10px 15px grey;
     padding: 10px ;
@@ -97,15 +94,15 @@ h5{
     margin-left: 5%;
     margin-right: 5%;
     margin: auto;
-    height: 330px;
+    height: 280px;
 
     
 }
 #full{
-    
     border-left: 7px solid;
     border-image: linear-gradient(lightsalmon, blue);
     border-image-slice: 1;
+    
 }
 #full2{
     
