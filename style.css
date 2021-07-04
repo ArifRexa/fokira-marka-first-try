@@ -3,10 +3,10 @@ body{
     font-family: 'Teko', sans-serif;
 }
 
-section{
+/* section{
     margin-bottom:150px;
     
-}
+} */
 p{
     font-size: 20px;
 }
@@ -15,14 +15,20 @@ h1{
     font-size: 80px;
     margin: 0px;
 }
+.marg{
+    margin-left: 20px;
+}
 
 h3{
     font-size: 60px;
     margin: 0px;
 }
 h4{
-    font-size: 25px;
+    font-size: 45px;
     margin: 0px;
+}
+h5{
+    font-size: 25px;
 }
 .orange-color{
     color: orange;
@@ -37,6 +43,7 @@ h4{
 .flexback{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 180px;
 
 
 }
@@ -45,6 +52,7 @@ h4{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 180px;
 
 
 }
@@ -70,7 +78,7 @@ h4{
     background-image: url(my-bg2.png);
     background-repeat: no-repeat;
     background-size: 450px;
-    padding-bottom: 250px;
+    /* padding-bottom: 130px; */
     /* background-position-x: -100px; */
     
 }
@@ -89,7 +97,8 @@ h4{
     margin-left: 5%;
     margin-right: 5%;
     margin: auto;
-    height: 250px;
+    height: 330px;
+
     
 }
 #full{
@@ -103,4 +112,20 @@ h4{
     border-left: 7px solid;
     border-image: linear-gradient(lightsalmon,red);
     border-image-slice: 1;
+}
+
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 400;
 }
